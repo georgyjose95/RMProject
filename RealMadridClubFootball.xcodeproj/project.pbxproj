@@ -8,20 +8,162 @@
 
 /* Begin PBXBuildFile section */
 		570B3FD622185769003871B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B3FD522185769003871B5 /* AppDelegate.swift */; };
-		570B3FD822185769003871B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B3FD722185769003871B5 /* ViewController.swift */; };
 		570B3FDB22185769003871B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FD922185769003871B5 /* Main.storyboard */; };
 		570B3FDD2218576C003871B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FDC2218576C003871B5 /* Assets.xcassets */; };
 		570B3FE02218576C003871B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FDE2218576C003871B5 /* LaunchScreen.storyboard */; };
+		570B3FE8221857C4003871B5 /* players.xml in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FE7221857C4003871B5 /* players.xml */; };
+		570B3FEA221858EB003871B5 /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B3FE9221858EB003871B5 /* PlayerTableViewController.swift */; };
+		570B3FF12218695D003871B5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B3FF02218695D003871B5 /* Player.swift */; };
+		570B400F221888C8003871B5 /* casimiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FF4221888C5003871B5 /* casimiro.jpg */; };
+		570B4011221888C8003871B5 /* vallejo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FF6221888C5003871B5 /* vallejo.jpg */; };
+		570B4012221888C8003871B5 /* nacho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FF7221888C5003871B5 /* nacho.jpg */; };
+		570B4013221888C8003871B5 /* casilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FF8221888C5003871B5 /* casilla.jpg */; };
+		570B4014221888C8003871B5 /* carvajal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FF9221888C5003871B5 /* carvajal.jpg */; };
+		570B4015221888C8003871B5 /* isco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FFA221888C5003871B5 /* isco.jpg */; };
+		570B4016221888C8003871B5 /* benzema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FFB221888C5003871B5 /* benzema.jpg */; };
+		570B4017221888C8003871B5 /* kroos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FFC221888C5003871B5 /* kroos.jpg */; };
+		570B4018221888C8003871B5 /* ramos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FFD221888C6003871B5 /* ramos.jpg */; };
+		570B4019221888C8003871B5 /* ceballos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FFE221888C6003871B5 /* ceballos.jpg */; };
+		570B401A221888C8003871B5 /* lucazidane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B3FFF221888C6003871B5 /* lucazidane.jpg */; };
+		570B401B221888C8003871B5 /* vinicius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4000221888C6003871B5 /* vinicius.jpg */; };
+		570B401C221888C8003871B5 /* keyloricon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4001221888C6003871B5 /* keyloricon.jpg */; };
+		570B401D221888C8003871B5 /* llorente.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4002221888C6003871B5 /* llorente.jpg */; };
+		570B401E221888C8003871B5 /* reguilon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4003221888C6003871B5 /* reguilon.jpg */; };
+		570B401F221888C8003871B5 /* varane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4004221888C6003871B5 /* varane.jpg */; };
+		570B4020221888C8003871B5 /* mariano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4005221888C6003871B5 /* mariano.jpg */; };
+		570B4021221888C8003871B5 /* keylor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4006221888C6003871B5 /* keylor.jpg */; };
+		570B4022221888C8003871B5 /* lukamodric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4007221888C7003871B5 /* lukamodric.jpg */; };
+		570B4023221888C8003871B5 /* valverde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4008221888C7003871B5 /* valverde.jpg */; };
+		570B4024221888C8003871B5 /* realmadridtitle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B4009221888C7003871B5 /* realmadridtitle.jpg */; };
+		570B4025221888C8003871B5 /* marcusasensio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B400A221888C7003871B5 /* marcusasensio.jpg */; };
+		570B4026221888C8003871B5 /* marcelo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B400B221888C7003871B5 /* marcelo.jpg */; };
+		570B4027221888C8003871B5 /* lucaz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B400C221888C7003871B5 /* lucaz.jpg */; };
+		570B4028221888C8003871B5 /* odriozola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B400D221888C7003871B5 /* odriozola.jpg */; };
+		570B4029221888C8003871B5 /* garethbale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570B400E221888C7003871B5 /* garethbale.jpg */; };
+		571671F3221ACB2000E71B41 /* courtois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571671F2221ACB1F00E71B41 /* courtois.jpg */; };
+		573DE7C722356310009A1A58 /* courtoisimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7BF2235630F009A1A58 /* courtoisimage.jpg */; };
+		573DE7C922356310009A1A58 /* jesusimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7C12235630F009A1A58 /* jesusimage.jpg */; };
+		573DE7CA22356310009A1A58 /* casillaimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7C22235630F009A1A58 /* casillaimage.jpg */; };
+		573DE7CC22356310009A1A58 /* varaneimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7C42235630F009A1A58 /* varaneimage.jpg */; };
+		573DE7CD22356310009A1A58 /* carvajalimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7C52235630F009A1A58 /* carvajalimage.jpg */; };
+		573DE7CE22356310009A1A58 /* lucazidaneimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7C622356310009A1A58 /* lucazidaneimage.jpg */; };
+		573DE7D02235682A009A1A58 /* nachoimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7CF22356829009A1A58 /* nachoimage.jpg */; };
+		573DE7D922356DE7009A1A58 /* dobicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7D522356DE6009A1A58 /* dobicon.jpg */; };
+		573DE7DA22356DE7009A1A58 /* weight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7D622356DE6009A1A58 /* weight.jpg */; };
+		573DE7DC22356DE7009A1A58 /* nationality.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7D822356DE7009A1A58 /* nationality.jpg */; };
+		573DE7DE22356F30009A1A58 /* height.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7DD22356F30009A1A58 /* height.jpg */; };
+		573DE7F522357578009A1A58 /* toniimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7E422357575009A1A58 /* toniimage.jpg */; };
+		573DE7F722357578009A1A58 /* casemiroimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7E622357575009A1A58 /* casemiroimage.jpg */; };
+		573DE7F822357578009A1A58 /* diazimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7E722357575009A1A58 /* diazimage.jpeg */; };
+		573DE7F922357578009A1A58 /* valverdeimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7E822357576009A1A58 /* valverdeimage.jpg */; };
+		573DE7FB22357578009A1A58 /* viniciusimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7EA22357576009A1A58 /* viniciusimage.jpg */; };
+		573DE7FC22357578009A1A58 /* iscoimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7EB22357576009A1A58 /* iscoimage.jpg */; };
+		573DE7FD22357578009A1A58 /* llorenteimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7EC22357576009A1A58 /* llorenteimage.jpg */; };
+		573DE7FE22357578009A1A58 /* ceballosimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7ED22357577009A1A58 /* ceballosimage.jpg */; };
+		573DE7FF22357578009A1A58 /* reguilonimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7EE22357577009A1A58 /* reguilonimage.jpg */; };
+		573DE80022357578009A1A58 /* modricimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7EF22357577009A1A58 /* modricimage.jpg */; };
+		573DE80122357578009A1A58 /* asensioimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7F022357577009A1A58 /* asensioimage.jpg */; };
+		573DE80222357578009A1A58 /* navasimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7F122357577009A1A58 /* navasimage.jpg */; };
+		573DE80322357578009A1A58 /* odriozolaimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7F222357578009A1A58 /* odriozolaimage.jpg */; };
+		573DE80422357578009A1A58 /* vazquzimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7F322357578009A1A58 /* vazquzimage.jpg */; };
+		573DE80522357578009A1A58 /* baleimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE7F422357578009A1A58 /* baleimage.jpg */; };
+		573DE80722357589009A1A58 /* marceloimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE80622357589009A1A58 /* marceloimage.jpg */; };
+		573DE80922357B72009A1A58 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DE80822357B72009A1A58 /* VideoPlayerViewController.swift */; };
+		573DE80D22359454009A1A58 /* bestrealvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 573DE80C22359453009A1A58 /* bestrealvideo.mp4 */; };
+		573DE80F223596D1009A1A58 /* video.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE80E223596D1009A1A58 /* video.jpg */; };
+		573DE813223597CE009A1A58 /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE810223597CE009A1A58 /* play.jpg */; };
+		573DE814223597CE009A1A58 /* fast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE811223597CE009A1A58 /* fast.jpg */; };
+		573DE815223597CE009A1A58 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE812223597CE009A1A58 /* back.jpg */; };
+		573DE81922359B45009A1A58 /* pause.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE81822359B45009A1A58 /* pause.jpg */; };
+		573DE81F2235A43D009A1A58 /* info.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE81E2235A43D009A1A58 /* info.jpg */; };
+		573DE8212235A954009A1A58 /* benzemaimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE8202235A953009A1A58 /* benzemaimage.jpg */; };
+		573DE8232235A963009A1A58 /* ramosimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE8222235A962009A1A58 /* ramosimage.jpg */; };
+		573DE8252235A972009A1A58 /* reallogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573DE8242235A972009A1A58 /* reallogo.jpg */; };
+		573E0C812232BDD0000399BA /* PlayerWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E0C802232BDD0000399BA /* PlayerWebViewController.swift */; };
+		573E0C832232C496000399BA /* navas.gif  in Resources */ = {isa = PBXBuildFile; fileRef = 573E0C822232C496000399BA /* navas.gif  */; };
+		57FA05E0221AFDC00071EBE3 /* PlayerImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA05DF221AFDC00071EBE3 /* PlayerImageViewController.swift */; };
+		57FA05E2221B065D0071EBE3 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA05E1221B065D0071EBE3 /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		570B3FD222185769003871B5 /* RealMadridClubFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealMadridClubFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		570B3FD522185769003871B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		570B3FD722185769003871B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		570B3FDA22185769003871B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		570B3FDC2218576C003871B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		570B3FDF2218576C003871B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		570B3FE12218576C003871B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570B3FE7221857C4003871B5 /* players.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = players.xml; sourceTree = "<group>"; };
+		570B3FE9221858EB003871B5 /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		570B3FF02218695D003871B5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		570B3FF4221888C5003871B5 /* casimiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casimiro.jpg; sourceTree = "<group>"; };
+		570B3FF6221888C5003871B5 /* vallejo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vallejo.jpg; sourceTree = "<group>"; };
+		570B3FF7221888C5003871B5 /* nacho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nacho.jpg; sourceTree = "<group>"; };
+		570B3FF8221888C5003871B5 /* casilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casilla.jpg; sourceTree = "<group>"; };
+		570B3FF9221888C5003871B5 /* carvajal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carvajal.jpg; sourceTree = "<group>"; };
+		570B3FFA221888C5003871B5 /* isco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = isco.jpg; sourceTree = "<group>"; };
+		570B3FFB221888C5003871B5 /* benzema.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benzema.jpg; sourceTree = "<group>"; };
+		570B3FFC221888C5003871B5 /* kroos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kroos.jpg; sourceTree = "<group>"; };
+		570B3FFD221888C6003871B5 /* ramos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ramos.jpg; sourceTree = "<group>"; };
+		570B3FFE221888C6003871B5 /* ceballos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceballos.jpg; sourceTree = "<group>"; };
+		570B3FFF221888C6003871B5 /* lucazidane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucazidane.jpg; sourceTree = "<group>"; };
+		570B4000221888C6003871B5 /* vinicius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vinicius.jpg; sourceTree = "<group>"; };
+		570B4001221888C6003871B5 /* keyloricon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keyloricon.jpg; sourceTree = "<group>"; };
+		570B4002221888C6003871B5 /* llorente.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = llorente.jpg; sourceTree = "<group>"; };
+		570B4003221888C6003871B5 /* reguilon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reguilon.jpg; sourceTree = "<group>"; };
+		570B4004221888C6003871B5 /* varane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = varane.jpg; sourceTree = "<group>"; };
+		570B4005221888C6003871B5 /* mariano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariano.jpg; sourceTree = "<group>"; };
+		570B4006221888C6003871B5 /* keylor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keylor.jpg; sourceTree = "<group>"; };
+		570B4007221888C7003871B5 /* lukamodric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lukamodric.jpg; sourceTree = "<group>"; };
+		570B4008221888C7003871B5 /* valverde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valverde.jpg; sourceTree = "<group>"; };
+		570B4009221888C7003871B5 /* realmadridtitle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = realmadridtitle.jpg; sourceTree = "<group>"; };
+		570B400A221888C7003871B5 /* marcusasensio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcusasensio.jpg; sourceTree = "<group>"; };
+		570B400B221888C7003871B5 /* marcelo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marcelo.jpg; sourceTree = "<group>"; };
+		570B400C221888C7003871B5 /* lucaz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucaz.jpg; sourceTree = "<group>"; };
+		570B400D221888C7003871B5 /* odriozola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odriozola.jpg; sourceTree = "<group>"; };
+		570B400E221888C7003871B5 /* garethbale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garethbale.jpg; sourceTree = "<group>"; };
+		571671F2221ACB1F00E71B41 /* courtois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = courtois.jpg; sourceTree = "<group>"; };
+		573DE7BF2235630F009A1A58 /* courtoisimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = courtoisimage.jpg; sourceTree = "<group>"; };
+		573DE7C12235630F009A1A58 /* jesusimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jesusimage.jpg; sourceTree = "<group>"; };
+		573DE7C22235630F009A1A58 /* casillaimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casillaimage.jpg; sourceTree = "<group>"; };
+		573DE7C42235630F009A1A58 /* varaneimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = varaneimage.jpg; sourceTree = "<group>"; };
+		573DE7C52235630F009A1A58 /* carvajalimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carvajalimage.jpg; sourceTree = "<group>"; };
+		573DE7C622356310009A1A58 /* lucazidaneimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucazidaneimage.jpg; sourceTree = "<group>"; };
+		573DE7CF22356829009A1A58 /* nachoimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nachoimage.jpg; sourceTree = "<group>"; };
+		573DE7D522356DE6009A1A58 /* dobicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dobicon.jpg; sourceTree = "<group>"; };
+		573DE7D622356DE6009A1A58 /* weight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weight.jpg; sourceTree = "<group>"; };
+		573DE7D822356DE7009A1A58 /* nationality.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nationality.jpg; sourceTree = "<group>"; };
+		573DE7DD22356F30009A1A58 /* height.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = height.jpg; sourceTree = "<group>"; };
+		573DE7E422357575009A1A58 /* toniimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toniimage.jpg; sourceTree = "<group>"; };
+		573DE7E622357575009A1A58 /* casemiroimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casemiroimage.jpg; sourceTree = "<group>"; };
+		573DE7E722357575009A1A58 /* diazimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diazimage.jpeg; sourceTree = "<group>"; };
+		573DE7E822357576009A1A58 /* valverdeimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valverdeimage.jpg; sourceTree = "<group>"; };
+		573DE7EA22357576009A1A58 /* viniciusimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viniciusimage.jpg; sourceTree = "<group>"; };
+		573DE7EB22357576009A1A58 /* iscoimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iscoimage.jpg; sourceTree = "<group>"; };
+		573DE7EC22357576009A1A58 /* llorenteimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = llorenteimage.jpg; sourceTree = "<group>"; };
+		573DE7ED22357577009A1A58 /* ceballosimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceballosimage.jpg; sourceTree = "<group>"; };
+		573DE7EE22357577009A1A58 /* reguilonimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reguilonimage.jpg; sourceTree = "<group>"; };
+		573DE7EF22357577009A1A58 /* modricimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = modricimage.jpg; sourceTree = "<group>"; };
+		573DE7F022357577009A1A58 /* asensioimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asensioimage.jpg; sourceTree = "<group>"; };
+		573DE7F122357577009A1A58 /* navasimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navasimage.jpg; sourceTree = "<group>"; };
+		573DE7F222357578009A1A58 /* odriozolaimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odriozolaimage.jpg; sourceTree = "<group>"; };
+		573DE7F322357578009A1A58 /* vazquzimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vazquzimage.jpg; sourceTree = "<group>"; };
+		573DE7F422357578009A1A58 /* baleimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baleimage.jpg; sourceTree = "<group>"; };
+		573DE80622357589009A1A58 /* marceloimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marceloimage.jpg; sourceTree = "<group>"; };
+		573DE80822357B72009A1A58 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		573DE80C22359453009A1A58 /* bestrealvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bestrealvideo.mp4; sourceTree = "<group>"; };
+		573DE80E223596D1009A1A58 /* video.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = video.jpg; sourceTree = "<group>"; };
+		573DE810223597CE009A1A58 /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+		573DE811223597CE009A1A58 /* fast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fast.jpg; sourceTree = "<group>"; };
+		573DE812223597CE009A1A58 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		573DE81822359B45009A1A58 /* pause.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pause.jpg; sourceTree = "<group>"; };
+		573DE81E2235A43D009A1A58 /* info.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info.jpg; sourceTree = "<group>"; };
+		573DE8202235A953009A1A58 /* benzemaimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benzemaimage.jpg; sourceTree = "<group>"; };
+		573DE8222235A962009A1A58 /* ramosimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ramosimage.jpg; sourceTree = "<group>"; };
+		573DE8242235A972009A1A58 /* reallogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reallogo.jpg; sourceTree = "<group>"; };
+		573E0C802232BDD0000399BA /* PlayerWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerWebViewController.swift; sourceTree = "<group>"; };
+		573E0C822232C496000399BA /* navas.gif  */ = {isa = PBXFileReference; lastKnownFileType = file; path = "navas.gif "; sourceTree = "<group>"; };
+		57FA05DF221AFDC00071EBE3 /* PlayerImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerImageViewController.swift; sourceTree = "<group>"; };
+		57FA05E1221B065D0071EBE3 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +196,83 @@
 		570B3FD422185769003871B5 /* RealMadridClubFootball */ = {
 			isa = PBXGroup;
 			children = (
+				573E0C802232BDD0000399BA /* PlayerWebViewController.swift */,
+				570B3FE9221858EB003871B5 /* PlayerTableViewController.swift */,
+				57FA05DF221AFDC00071EBE3 /* PlayerImageViewController.swift */,
+				570B3FE7221857C4003871B5 /* players.xml */,
+				570B3FF02218695D003871B5 /* Player.swift */,
 				570B3FD522185769003871B5 /* AppDelegate.swift */,
-				570B3FD722185769003871B5 /* ViewController.swift */,
 				570B3FD922185769003871B5 /* Main.storyboard */,
+				573DE80822357B72009A1A58 /* VideoPlayerViewController.swift */,
+				57FA05E1221B065D0071EBE3 /* PlayerDetailsViewController.swift */,
 				570B3FDC2218576C003871B5 /* Assets.xcassets */,
 				570B3FDE2218576C003871B5 /* LaunchScreen.storyboard */,
 				570B3FE12218576C003871B5 /* Info.plist */,
+				573DE7D522356DE6009A1A58 /* dobicon.jpg */,
+				573DE7D822356DE7009A1A58 /* nationality.jpg */,
+				573DE7D622356DE6009A1A58 /* weight.jpg */,
+				570B3FFA221888C5003871B5 /* isco.jpg */,
+				573DE7F022357577009A1A58 /* asensioimage.jpg */,
+				573DE8202235A953009A1A58 /* benzemaimage.jpg */,
+				573DE8242235A972009A1A58 /* reallogo.jpg */,
+				573DE7F422357578009A1A58 /* baleimage.jpg */,
+				573DE80622357589009A1A58 /* marceloimage.jpg */,
+				573DE80C22359453009A1A58 /* bestrealvideo.mp4 */,
+				570B3FFB221888C5003871B5 /* benzema.jpg */,
+				573DE812223597CE009A1A58 /* back.jpg */,
+				573DE811223597CE009A1A58 /* fast.jpg */,
+				573DE810223597CE009A1A58 /* play.jpg */,
+				573DE8222235A962009A1A58 /* ramosimage.jpg */,
+				570B3FF9221888C5003871B5 /* carvajal.jpg */,
+				570B3FF8221888C5003871B5 /* casilla.jpg */,
+				571671F2221ACB1F00E71B41 /* courtois.jpg */,
+				573DE7E622357575009A1A58 /* casemiroimage.jpg */,
+				573DE81822359B45009A1A58 /* pause.jpg */,
+				573DE7ED22357577009A1A58 /* ceballosimage.jpg */,
+				573DE80E223596D1009A1A58 /* video.jpg */,
+				573DE7E722357575009A1A58 /* diazimage.jpeg */,
+				573DE7EB22357576009A1A58 /* iscoimage.jpg */,
+				573DE7EC22357576009A1A58 /* llorenteimage.jpg */,
+				573DE81E2235A43D009A1A58 /* info.jpg */,
+				573DE7EF22357577009A1A58 /* modricimage.jpg */,
+				573DE7F122357577009A1A58 /* navasimage.jpg */,
+				573DE7F222357578009A1A58 /* odriozolaimage.jpg */,
+				573DE7EE22357577009A1A58 /* reguilonimage.jpg */,
+				573DE7E422357575009A1A58 /* toniimage.jpg */,
+				573DE7E822357576009A1A58 /* valverdeimage.jpg */,
+				573DE7F322357578009A1A58 /* vazquzimage.jpg */,
+				573DE7EA22357576009A1A58 /* viniciusimage.jpg */,
+				570B3FF4221888C5003871B5 /* casimiro.jpg */,
+				570B3FFE221888C6003871B5 /* ceballos.jpg */,
+				570B400E221888C7003871B5 /* garethbale.jpg */,
+				573E0C822232C496000399BA /* navas.gif  */,
+				570B4006221888C6003871B5 /* keylor.jpg */,
+				570B4001221888C6003871B5 /* keyloricon.jpg */,
+				573DE7C52235630F009A1A58 /* carvajalimage.jpg */,
+				573DE7C22235630F009A1A58 /* casillaimage.jpg */,
+				573DE7BF2235630F009A1A58 /* courtoisimage.jpg */,
+				573DE7DD22356F30009A1A58 /* height.jpg */,
+				573DE7C12235630F009A1A58 /* jesusimage.jpg */,
+				573DE7C622356310009A1A58 /* lucazidaneimage.jpg */,
+				573DE7CF22356829009A1A58 /* nachoimage.jpg */,
+				573DE7C42235630F009A1A58 /* varaneimage.jpg */,
+				570B3FFC221888C5003871B5 /* kroos.jpg */,
+				570B4002221888C6003871B5 /* llorente.jpg */,
+				570B400C221888C7003871B5 /* lucaz.jpg */,
+				570B3FFF221888C6003871B5 /* lucazidane.jpg */,
+				570B4007221888C7003871B5 /* lukamodric.jpg */,
+				570B400B221888C7003871B5 /* marcelo.jpg */,
+				570B400A221888C7003871B5 /* marcusasensio.jpg */,
+				570B4005221888C6003871B5 /* mariano.jpg */,
+				570B3FF7221888C5003871B5 /* nacho.jpg */,
+				570B400D221888C7003871B5 /* odriozola.jpg */,
+				570B3FFD221888C6003871B5 /* ramos.jpg */,
+				570B4009221888C7003871B5 /* realmadridtitle.jpg */,
+				570B4003221888C6003871B5 /* reguilon.jpg */,
+				570B3FF6221888C5003871B5 /* vallejo.jpg */,
+				570B4008221888C7003871B5 /* valverde.jpg */,
+				570B4004221888C6003871B5 /* varane.jpg */,
+				570B4000221888C6003871B5 /* vinicius.jpg */,
 			);
 			path = RealMadridClubFootball;
 			sourceTree = "<group>";
@@ -123,8 +336,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				570B3FE02218576C003871B5 /* LaunchScreen.storyboard in Resources */,
+				573DE81F2235A43D009A1A58 /* info.jpg in Resources */,
 				570B3FDD2218576C003871B5 /* Assets.xcassets in Resources */,
+				573DE7F522357578009A1A58 /* toniimage.jpg in Resources */,
+				573DE80022357578009A1A58 /* modricimage.jpg in Resources */,
+				573DE7F922357578009A1A58 /* valverdeimage.jpg in Resources */,
+				570B4016221888C8003871B5 /* benzema.jpg in Resources */,
+				573DE7CC22356310009A1A58 /* varaneimage.jpg in Resources */,
+				573DE813223597CE009A1A58 /* play.jpg in Resources */,
+				573DE80F223596D1009A1A58 /* video.jpg in Resources */,
+				570B4012221888C8003871B5 /* nacho.jpg in Resources */,
+				573DE7FE22357578009A1A58 /* ceballosimage.jpg in Resources */,
+				573DE7C922356310009A1A58 /* jesusimage.jpg in Resources */,
+				570B4018221888C8003871B5 /* ramos.jpg in Resources */,
+				573DE81922359B45009A1A58 /* pause.jpg in Resources */,
+				570B4022221888C8003871B5 /* lukamodric.jpg in Resources */,
+				573DE7DA22356DE7009A1A58 /* weight.jpg in Resources */,
+				573DE7F722357578009A1A58 /* casemiroimage.jpg in Resources */,
+				570B4023221888C8003871B5 /* valverde.jpg in Resources */,
+				573E0C832232C496000399BA /* navas.gif  in Resources */,
+				573DE80122357578009A1A58 /* asensioimage.jpg in Resources */,
+				570B401F221888C8003871B5 /* varane.jpg in Resources */,
+				570B4025221888C8003871B5 /* marcusasensio.jpg in Resources */,
+				570B4026221888C8003871B5 /* marcelo.jpg in Resources */,
+				573DE80522357578009A1A58 /* baleimage.jpg in Resources */,
+				570B4014221888C8003871B5 /* carvajal.jpg in Resources */,
+				573DE7F822357578009A1A58 /* diazimage.jpeg in Resources */,
+				570B4021221888C8003871B5 /* keylor.jpg in Resources */,
+				573DE7CD22356310009A1A58 /* carvajalimage.jpg in Resources */,
+				573DE8252235A972009A1A58 /* reallogo.jpg in Resources */,
+				573DE7CE22356310009A1A58 /* lucazidaneimage.jpg in Resources */,
+				570B3FE8221857C4003871B5 /* players.xml in Resources */,
+				570B401E221888C8003871B5 /* reguilon.jpg in Resources */,
+				570B4028221888C8003871B5 /* odriozola.jpg in Resources */,
+				573DE7D02235682A009A1A58 /* nachoimage.jpg in Resources */,
+				570B401D221888C8003871B5 /* llorente.jpg in Resources */,
+				570B4027221888C8003871B5 /* lucaz.jpg in Resources */,
+				573DE7CA22356310009A1A58 /* casillaimage.jpg in Resources */,
+				573DE7FC22357578009A1A58 /* iscoimage.jpg in Resources */,
+				573DE7FF22357578009A1A58 /* reguilonimage.jpg in Resources */,
+				573DE80722357589009A1A58 /* marceloimage.jpg in Resources */,
+				570B4019221888C8003871B5 /* ceballos.jpg in Resources */,
+				571671F3221ACB2000E71B41 /* courtois.jpg in Resources */,
+				573DE7FD22357578009A1A58 /* llorenteimage.jpg in Resources */,
+				573DE7C722356310009A1A58 /* courtoisimage.jpg in Resources */,
+				570B4024221888C8003871B5 /* realmadridtitle.jpg in Resources */,
+				570B4015221888C8003871B5 /* isco.jpg in Resources */,
+				573DE7FB22357578009A1A58 /* viniciusimage.jpg in Resources */,
+				570B400F221888C8003871B5 /* casimiro.jpg in Resources */,
+				573DE7DC22356DE7009A1A58 /* nationality.jpg in Resources */,
+				570B4029221888C8003871B5 /* garethbale.jpg in Resources */,
+				573DE814223597CE009A1A58 /* fast.jpg in Resources */,
+				573DE8212235A954009A1A58 /* benzemaimage.jpg in Resources */,
+				570B4013221888C8003871B5 /* casilla.jpg in Resources */,
+				573DE80222357578009A1A58 /* navasimage.jpg in Resources */,
+				573DE8232235A963009A1A58 /* ramosimage.jpg in Resources */,
+				570B401C221888C8003871B5 /* keyloricon.jpg in Resources */,
+				573DE7D922356DE7009A1A58 /* dobicon.jpg in Resources */,
+				573DE7DE22356F30009A1A58 /* height.jpg in Resources */,
+				570B4011221888C8003871B5 /* vallejo.jpg in Resources */,
+				573DE80322357578009A1A58 /* odriozolaimage.jpg in Resources */,
+				573DE80D22359454009A1A58 /* bestrealvideo.mp4 in Resources */,
+				570B401A221888C8003871B5 /* lucazidane.jpg in Resources */,
 				570B3FDB22185769003871B5 /* Main.storyboard in Resources */,
+				570B4020221888C8003871B5 /* mariano.jpg in Resources */,
+				573DE815223597CE009A1A58 /* back.jpg in Resources */,
+				573DE80422357578009A1A58 /* vazquzimage.jpg in Resources */,
+				570B401B221888C8003871B5 /* vinicius.jpg in Resources */,
+				570B4017221888C8003871B5 /* kroos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +414,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570B3FD822185769003871B5 /* ViewController.swift in Sources */,
+				570B3FEA221858EB003871B5 /* PlayerTableViewController.swift in Sources */,
+				57FA05E0221AFDC00071EBE3 /* PlayerImageViewController.swift in Sources */,
+				573E0C812232BDD0000399BA /* PlayerWebViewController.swift in Sources */,
+				573DE80922357B72009A1A58 /* VideoPlayerViewController.swift in Sources */,
+				570B3FF12218695D003871B5 /* Player.swift in Sources */,
 				570B3FD622185769003871B5 /* AppDelegate.swift in Sources */,
+				57FA05E2221B065D0071EBE3 /* PlayerDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
